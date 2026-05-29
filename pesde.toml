@@ -1,0 +1,15 @@
+name = "idkaboutbytes/badgeutils"
+version = "2.1.0"
+description = "Badge utilities for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/badgeutils"
+includes = ["pesde.toml", "README.md", "CHANGELOG.md", "default.project.json", "sourcemap.json", "src/**/*.luau"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+
+[dependencies]
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.1.0" }
+Promise = { repo = "idkaboutbytes/promise", rev = "v2.0.0" }
